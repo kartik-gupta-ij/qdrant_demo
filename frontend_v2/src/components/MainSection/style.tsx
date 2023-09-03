@@ -4,7 +4,7 @@ export const useStyles = createStyles((theme) => ({
     wrapper: {
       position: "relative",
       paddingTop: rem(120),
-      paddingBottom: rem(80),
+      paddingBottom: rem(30),
   
       [theme.fn.smallerThan("sm")]: {
         paddingTop: rem(80),
