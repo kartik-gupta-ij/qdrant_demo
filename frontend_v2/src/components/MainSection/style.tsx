@@ -18,13 +18,12 @@ export const useStyles = createStyles((theme) => ({
   },
   title: {
     textAlign: "center",
-    fontWeight: 800,
+    fontWeight: 700,
     fontSize: rem(40),
     letterSpacing: -1,
     marginBottom: theme.spacing.xs,
     [theme.fn.smallerThan("xs")]: {
-      fontSize: rem(28),
-      textAlign: "left",
+      fontSize: rem(30),
     },
   },
 
@@ -37,7 +36,6 @@ export const useStyles = createStyles((theme) => ({
     textAlign: "center",
 
     [theme.fn.smallerThan("xs")]: {
-      textAlign: "left",
       fontSize: theme.fontSizes.md,
     },
   },

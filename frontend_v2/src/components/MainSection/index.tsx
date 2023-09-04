@@ -58,7 +58,7 @@ export function Main() {
           </Text>
         </Container>
 
-        <Container p={0} size={600}>
+        <Container p={0} size={600} mt={30}>
           <TextInput
             icon={<IconSearch />}
             placeholder="Enter a query"
