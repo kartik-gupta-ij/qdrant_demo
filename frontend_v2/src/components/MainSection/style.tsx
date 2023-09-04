@@ -20,8 +20,8 @@ export const useStyles = createStyles((theme) => ({
     title: {
       textAlign: "center",
       marginBottom: theme.spacing.xs,
-      fontSize: "80px",
-      lineHeight:"96px"
+      // fontSize: "80px",
+      // lineHeight:"96px"
     },
   
     highlight: {
@@ -30,8 +30,8 @@ export const useStyles = createStyles((theme) => ({
   
     description: {
       textAlign: "center",
-      fontSize: "24px",
-      lineHeight:"32px",
+      // fontSize: "24px",
+      // lineHeight:"32px",
       [theme.fn.smallerThan("xs")]: {
         fontSize: theme.fontSizes.md,
       },
