@@ -89,7 +89,7 @@ export function Main() {
                   onChange={(event) => {
                     setIsNeural(event.currentTarget.checked);
                     resetData();
-                    getSearch(query, event.currentTarget.checked);
+                    query && getSearch(query, event.currentTarget.checked);
                   }}
                   color="Primary.2"
                 />

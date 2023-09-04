@@ -19,12 +19,9 @@ export const useStyles = createStyles((theme) => ({
   
     title: {
       textAlign: "center",
-      fontSize: rem(40),
       marginBottom: theme.spacing.xs,
-      [theme.fn.smallerThan("xs")]: {
-        fontSize: rem(28),
-        textAlign: "left",
-      },
+      fontSize: "80px",
+      lineHeight:"96px"
     },
   
     highlight: {
@@ -33,9 +30,9 @@ export const useStyles = createStyles((theme) => ({
   
     description: {
       textAlign: "center",
-  
+      fontSize: "24px",
+      lineHeight:"32px",
       [theme.fn.smallerThan("xs")]: {
-        textAlign: "left",
         fontSize: theme.fontSizes.md,
       },
     },
